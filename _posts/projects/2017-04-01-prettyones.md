@@ -14,7 +14,7 @@ project:
 
 images:
   - image:
-    url: "/assets/images/projects/yellowpineapple/devices.jpg"
+    url: "Screen Shot 2018-12-10 at 12.48.54 AM.png"
     alt: "Yellow Pineapple website on tablet, mobile and desktop"
   - image:
     url: "/assets/images/projects/yellowpineapple/desktop.jpg"
