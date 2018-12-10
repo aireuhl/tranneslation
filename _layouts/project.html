@@ -24,7 +24,7 @@
 					<ul>
 					{% for image in page.images %}
 					<li>
-					<img src="{{ image.url | prepend: site.baseurl }}" alt="{{ image.alt }}" />
+					<iframe style="{{ image.url }}" width="{{ width }}" height="{{ height}}" alt="{{ image.alt }}" /iframe>
 					</li>
 					{% endfor %}
 					</ul>
