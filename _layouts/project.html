@@ -22,9 +22,10 @@
 				</article>
 				<aside>
 					<ul>
-					{% for image in page.images %}
+					{% for iframe in page.images %}
 					<li>
-					<iframe style="{{ image.url }}" width="{{ width }}" height="{{ height}}" alt="{{ image.alt }}" /iframe>
+					 <iframe src="/default.asp" width="200" height="200" align="right">
+				</iframe> 
 					</li>
 					{% endfor %}
 					</ul>
